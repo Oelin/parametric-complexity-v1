@@ -17,7 +17,7 @@ where:
 
 - $L_{\text{nml}}$ is the *posterior* length of $\mathcal{M}$ given $D$.
 
-- $L_{M^*}$ is the *likelihood* length of $D$ under the MLE estimate $M^*$. 
+- $L_{M^\*}$ is the *likelihood* length of $D$ under the MLE estimate $M^*$. 
 
 - $L_\mathcal{M}$ is the *prior* length of $\mathcal{M}$, i.e. its parametric complexity.
 
@@ -27,7 +27,7 @@ To compute $L_{\mathcal{M}}$, we use the following algorithm:
 
 1. Pick a dataset from $\mathcal{D}$, such that each data point is chosen uniformly at random. Neccessarily, the chance that at least $k$ bits can be removed from this dataset is exponentially small in $k$.
 
-2. Compute $L_{M^*}$ for this dataset and subtract it from the dataset's original size in bits. Since the dataset cannot feasibly be compressed, this measures how much information is simply *memorised* in $M^*$.
+2. Compute $L_{M^\*}$ for this dataset and subtract it from the dataset's original size in bits. Since the dataset cannot feasibly be compressed, this measures how much information is simply *memorised* in $M^*$.
 
 3. Repeat steps 1-2 several times to obtain an average for how many bits are memorised.
 
