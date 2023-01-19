@@ -1,6 +1,6 @@
-# P Complexity
+# LX
 
-First attempt at estimating the parametric complexity (information content) of binary classifier models. The method used here requires further development to reduce variance in produced results. Nonetheless, it provides a first approximation of parametric complexity, which is a useful metric for model selection.
+First attempt at estimating the parametric complexity (descrption length) of binary classifier models. The method used here requires further development to reduce variance in produced results. Nonetheless, it provides a first approximation of parametric complexity, which is a useful metric for model selection.
 
 
 ## Introduction
